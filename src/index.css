@@ -1,0 +1,84 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=Roboto:ital,wght@0,400;0,500;0,700;1,400&display=swap");
+body {
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #EBEAEA;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+img {
+  display: block;
+}
+
+.open-sans {
+  font-family: "Open Sans", sans-serif;
+}
+
+.login--centering {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  display: flex;
+  padding-right: 8vw;
+  z-index: 2;
+}
+
+.carousel {
+  display: flex;
+}
+.carousel img {
+  width: 300px;
+}
+
+.menu--button {
+  position: fixed;
+  background: none;
+  border: none;
+  right: 0;
+  z-index: 10;
+  cursor: pointer;
+  margin: 35px;
+}
+.menu--button svg {
+  width: 5vw;
+}
+
+.down--button {
+  width: 4vw;
+  cursor: pointer;
+}
+
+.down--container {
+  position: absolute;
+  width: 100%;
+  bottom: 35px;
+  left: 0;
+  right: 0;
+  display: grid;
+  place-items: center;
+}
+
+.login--container {
+  display: grid;
+  place-items: center;
+}
+
+.login--input {
+  position: absolute;
+}
+
+.about-us {
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  right: 0;
+  width: 50vw;
+  background-color: #EBEAEA;
+  z-index: 5;
+}/*# sourceMappingURL=index.css.map */
